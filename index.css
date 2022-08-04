@@ -1,0 +1,65 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.head{
+    background-color: hsl(213, 19%, 18%);
+    border: 1px solid rgb(255, 0, 0);
+    border: none;
+    width: 360px;
+    height: 370px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 150px;
+    border-radius: 20px;
+}
+.first{
+color: white;
+margin-left: 20px;
+font-size: 15px;
+margin-top: 10px;
+}
+.paragraph{
+    color: hsl(217, 12%, 63%);
+    margin-right: 15px;
+}
+.button1 button{
+background-color:hsl(214, 22%, 25%);
+color: hsl(216, 12%, 54%);
+border-radius: 20px;
+width: 40px;
+height: 40px;
+margin-left: 20px;
+margin-top: 20px;
+border: none;
+cursor: pointer;
+}
+.button1 button:active{
+    background-color: rgb(255, 136, 0);
+    color: white;
+}
+.image{
+background-color:hsl(214, 22%, 25%);
+border-radius: 20px;
+width: 40px;
+height: 40px;
+margin-left: 5px;
+margin-top: 10px;
+border: none;
+}
+.button2 button{
+    background-color: rgb(255, 136, 0);
+    color: white;
+    margin-top: 30px;
+    width: 305px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 15px;
+    border: none;
+    cursor: pointer;
+}
+.button2 button:active {
+    background-color: white;
+    color: rgb(255, 136, 0);
+}
